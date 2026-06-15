@@ -4,5 +4,5 @@
   "description": "Compact player HP / MP / buff HUD.",
   "version": "1.0.0",
   "dll": "StarMod.PlayerHUD.dll",
-  "author": "StarMod"
+  "author": "Stellar"
 }

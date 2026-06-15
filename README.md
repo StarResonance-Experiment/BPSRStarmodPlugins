@@ -1,6 +1,6 @@
 # BPSRStarmodPlugins
 
-The **plugin registry** for the [StarMod launcher](https://github.com/StarResonance-Experiment/BPSRStarmodLauncher)
+The **plugin registry** for the [Stellar launcher](https://github.com/StellarResonance/BPSRStarmodLauncher)
 (Blue Protocol: Star Resonance) — the dedicated home of the curated plugin catalog,
 in the spirit of Dalamud's plugin repo.
 

@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Build + publish the StarMod plugin registry to MinIO.
+"""Build + publish the Stellar plugin registry to MinIO.
 
 Scans plugins/<id>/manifest.json (+ the DLL beside each), computes sha256,
 assembles plugins.json, and uploads every DLL + plugins.json to the public

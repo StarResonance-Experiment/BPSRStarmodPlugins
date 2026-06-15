@@ -4,5 +4,5 @@
   "description": "Real-time party DPS/HPS meter with role colours.",
   "version": "1.0.0",
   "dll": "StarMod.CombatMeter.dll",
-  "author": "StarMod"
+  "author": "Stellar"
 }
