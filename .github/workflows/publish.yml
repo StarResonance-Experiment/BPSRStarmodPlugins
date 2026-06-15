@@ -1,6 +1,6 @@
 name: publish-registry
 # Validates plugin manifests and publishes plugins.json + DLLs to the public
-# `starmod` MinIO bucket. Runs on every push to main (and manual dispatch).
+# `stellar` MinIO bucket. Runs on every push to main (and manual dispatch).
 # PRs run validation only (no publish) so community submissions are checked.
 on:
   push:

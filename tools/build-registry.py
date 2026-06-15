@@ -3,7 +3,7 @@
 
 Scans plugins/<id>/manifest.json (+ the DLL beside each), computes sha256,
 assembles plugins.json, and uploads every DLL + plugins.json to the public
-`starmod` MinIO bucket. This repo OWNS the registry — decoupled from the
+`stellar` MinIO bucket. This repo OWNS the registry — decoupled from the
 framework's releases. Community plugins are added by PR (a new plugins/<id>/).
 
 Usage:
@@ -20,7 +20,7 @@ import sys
 from pathlib import Path
 
 ENDPOINT = "https://minio.revette.io"
-BUCKET = "starmod"
+BUCKET = "stellar"
 ROOT = Path(__file__).resolve().parents[1]
 PLUGINS_DIR = ROOT / "plugins"
 REQUIRED = ("id", "name", "description", "version", "dll", "author")

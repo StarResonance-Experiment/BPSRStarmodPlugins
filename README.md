@@ -5,7 +5,7 @@ The **plugin registry** for the [Stellar launcher](https://github.com/StellarRes
 in the spirit of Dalamud's plugin repo.
 
 This repo owns the registry; its CI publishes the index + DLLs to the public MinIO
-bucket the launcher reads (`https://minio.revette.io/starmod/plugins.json`). It is
+bucket the launcher reads (`https://minio.revette.io/stellar/plugins.json`). It is
 **decoupled from the framework's releases** — plugins ship on their own cadence.
 
 ## Layout
